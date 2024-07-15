@@ -1,0 +1,3 @@
+div:has(img:hover)>img:not(:hover) {
+  opacity: .4;
+}
