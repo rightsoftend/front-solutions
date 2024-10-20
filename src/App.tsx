@@ -1,10 +1,13 @@
+import NeonText from './components/text/1-neon'
 import Hover1 from './components/images/effects/1-hover/1-hover'
 import './App.css'
 
 function App() {
   return (
     <>
+      <NeonText text="Text"/>
       <Hover1 />
+
     </>
   )
 }
