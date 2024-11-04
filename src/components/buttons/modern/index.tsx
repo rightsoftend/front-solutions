@@ -2,7 +2,9 @@ import './style.css';
 
 const ModernButton = () => {
   return (
-    <button className="btn">Modern Button</button>
+    <div className='control'>
+      <button className="btn">Modern Button</button>
+    </div>
   );
 }
 
