@@ -1,7 +1,4 @@
-type Item = {
-  title: string;
-  description: string;
-}
+import { Item } from '../IItem'
 
 const Accordeon = ({name, items}: {name: string; items: Item[];}) => {
   return (
