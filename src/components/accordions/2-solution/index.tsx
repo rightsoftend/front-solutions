@@ -16,12 +16,12 @@ const Accordion = ({ name, items }: { name: string; items: Item[] }) => {
                 {item.title}
               </span>
             </summary>
-            <div className="accordion__content" id={`faq-${index}`} role="definition">
+          </details>
+          <div className="accordion__content" id={`faq-${index}`} role="definition">
               <div className="accordion__content-body">
                 <p>{item.description}</p>
               </div>
             </div>
-          </details>
         </div>
       ))}
     </>
