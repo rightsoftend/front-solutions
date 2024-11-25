@@ -3,10 +3,11 @@ import Hover1 from './components/images/effects/1-hover/1-hover'
 import ModernButton from './components/buttons/modern'
 import './App.css'
 import InputBorderGradient from './components/inputs/border-gradient'
-import Accordeon1 from './components/accordeons/1-solution'
+import Accordion1 from './components/accordions/1-solution'
+import Accordion2 from './components/accordions/2-solution'
 //import SVGComponent from './components/images/svg'
 
-const accordeonData = {
+const accordionData = {
   name: "name",
   items: [
     {
@@ -31,7 +32,8 @@ const accordeonData = {
 function App() {
   return (
     <div className='flex flex-col'>
-      <Accordeon1 name={accordeonData.name} items={accordeonData.items} />
+      <Accordion2 name={accordionData.name} items={accordionData.items} />
+      <Accordion1 name={accordionData.name} items={accordionData.items} />
       <InputBorderGradient />
       <ModernButton />
       <NeonText text="Text"/>
